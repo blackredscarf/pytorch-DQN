@@ -3,7 +3,7 @@ import os
 import random
 import torch
 from torch.optim import Adam
-from Tester import Tester
+from tester import Tester
 from buffer import ReplayBuffer
 from common.wrappers import make_atari, wrap_deepmind, wrap_pytorch
 from config import Config

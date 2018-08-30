@@ -3,7 +3,7 @@ import random
 import gym
 import torch
 from torch.optim import Adam
-from Tester import Tester
+from tester import Tester
 from buffer import ReplayBuffer
 from config import Config
 from core.util import get_class_attr_val
